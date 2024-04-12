@@ -1,0 +1,17 @@
+requests
+python-multipart
+fastapi
+uvicorn
+loguru
+
+opencv-python
+opencv-contrib-python
+NumPy
+
+scikit-image
+pillow
+
+torch
+torchvision
+torchaudio
+ultralytics
