@@ -9,7 +9,7 @@
 > set http_proxy=http://127.0.0.1:7890
 > set https_proxy=http://127.0.0.1:7890
 > python.exe get-pip.py
-> python.exe -m pip install -r requirements.txt         // 推荐
+> python.exe -m pip install -r requirements.txt         // 推荐（根据需要修改requirements.txt）
 > python.exe -m pip list                                // 推荐
 > .\Scripts\pip install -r requirements.txt             // 不推荐
 > .\Scripts\pip list                                    // 不推荐
