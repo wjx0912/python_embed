@@ -3,6 +3,7 @@ python-multipart
 fastapi
 uvicorn
 loguru
+nuitka
 
 opencv-python
 opencv-contrib-python
