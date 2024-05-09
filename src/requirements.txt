@@ -4,6 +4,7 @@ fastapi
 uvicorn
 loguru
 nuitka
+pyyaml
 
 opencv-python
 opencv-contrib-python
