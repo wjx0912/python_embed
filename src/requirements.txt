@@ -9,6 +9,7 @@ pyyaml
 opencv-python
 opencv-contrib-python
 NumPy
+pyarmor
 
 scikit-image
 pillow

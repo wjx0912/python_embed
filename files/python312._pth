@@ -1,5 +1,7 @@
 python312.zip
 .
+# the path contain 'pyarmor_runtime_004568'
+..\app
 
 # Uncomment to run site.main() automatically
 import site
