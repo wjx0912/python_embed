@@ -27,3 +27,7 @@ print("Hello, World!")
 
 
 
+注意修改：files/python312._pth
+
+里面增加pyarmor的路径
+
