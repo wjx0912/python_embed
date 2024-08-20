@@ -3,9 +3,14 @@
 ```
 # google search: python embeddable pip install
 # 参考：https://stackoverflow.com/questions/42666121/pip-with-embedded-python
-# 打开https://www.python.org/downloads/release/python-3123/，下载：Windows embeddable package (64-bit)
-# 解压，修改python312._pth，里面有一行#import site把最前面的井号删掉，最下面一行添加：Lib\site-packages
-# 打开https://pip.pypa.io/en/stable/installation/，下载get-pip.py
+# (1)打开https://www.python.org/downloads/release/python-3123/，下载：Windows embeddable package (64-bit)
+# (2)解压，修改python312._pth，
+#    里面有一行#import site把最前面的井号删掉，
+#    最下面一行添加：Lib\site-packages
+#    前面的路径增加一行：..\app
+#    ★★★这个文件已经编辑好了，拷贝到python-3.12.3-embed-amd64
+# (3)打开https://pip.pypa.io/en/stable/installation/，下载get-pip.py，拷贝到python-3.12.3-embed-amd64
+
 > set http_proxy=http://127.0.0.1:7890
 > set https_proxy=http://127.0.0.1:7890
 > python.exe get-pip.py
